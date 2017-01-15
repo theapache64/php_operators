@@ -1,0 +1,65 @@
+$x=10
+$y=5
+
+Arithmetic Operators
+---------------------------
+$x+$y=15
+$x-$y=5
+$x*$y=50
+$x/$y=2
+$x%$y=0
+$x**$y=100000
+
+Assignment Operators
+---------------------------
+$z=$y, $z=5
+$x+=$y =15
+$x-=$y =5
+$x*=$y =50
+$x/=$y =2
+$x%=$y =0
+
+Comparison Operators
+---------------------------
+$x==$y =false
+$x===$y =false
+$x!=$y =true
+$x<>$y =true
+$x!==$y =true
+$x>$y =true
+$x<$y =false
+$x>=$y =true
+$x<=$y =false
+
+Increment/Decrement Operators
+---------------------------------------
+++$x=11
+$x++=10
+--$x=9
+$x--=10
+
+Logical Operators
+----------------------
+$x and $y =true
+$x or $y =true
+$x xor $y =false
+$x && $y =true
+$x || $y =true
+$x!= =false
+
+String Operators
+----------------------
+$text1.$text2 =HelloWorld!
+$text1.=$text2 =HelloWorld!
+
+Array Operators
+----------------------
+Array ( [a] => red [b] => green ) $a=1
+Array ( [c] => blue [d] => yellow ) $b=1
+
+$a+$b = Array ( [a] => red [b] => green [c] => blue [d] => yellow ) 
+$a==$b = false
+$a===$b = false
+$a!=$b = true
+$a<>$b = true
+$a!==$b = true
